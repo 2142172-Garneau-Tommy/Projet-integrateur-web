@@ -1,0 +1,46 @@
+[{
+  "_id": "1",
+  "numeroVol": "3102",
+  "destinationDepart": "Quebec",
+  "destinationArrive": "New York",
+  "nombrePassager": 48,
+  "prix": 800,
+  "promotion": false,
+  "dateReservation": [
+    {
+      "depart": {
+        "$date": "1970-01-01T00:00:00.000Z"
+      },
+      "retour": {
+        "$date": "1970-01-01T00:00:00.000Z"
+      }
+    }
+  ],
+  "information_personne": [
+    {
+      "nom": "Garneau",
+      "prenom": "Tommy",
+      "email": "tommygarneau42@gmail.com",
+      "telephone": "438-507-5675"
+    }
+  ],
+  "membre_vol": [
+    "Tommy",
+    "Roger"
+  ]
+},
+{
+  "_id": "2",
+  "numeroVol": "4038",
+  "destinationDepart": "Montreal",
+  "destinationArrive": "Los Angeles",
+  "nombrePassager": 48,
+  "prix": 800,
+  "promotion": false,
+  "membre_vol": [
+    "Tommy",
+    "Roger"
+  ],
+  "informationPersonne": [],
+  "__v": 0
+}]
